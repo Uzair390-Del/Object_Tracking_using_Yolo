@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model=YOLO("yolo11n.pt")
 
 #tracking with default tracker bot-sort
-results=model.track(source="Videos\video7.mp4",save=True,show=True)
+results = model.track(source="Resources\\Videos\\7.mp4", save=True, show=True)
